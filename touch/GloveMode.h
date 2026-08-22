@@ -5,11 +5,11 @@
 
 #pragma once
 
-#include <aidl/vendor/lineage/touch/BnGloveMode.h>
+#include <aidl/vendor/strix/touch/BnGloveMode.h>
 
 namespace aidl {
 namespace vendor {
-namespace lineage {
+namespace strix {
 namespace touch {
 
 class GloveMode : public BnGloveMode {
@@ -19,6 +19,6 @@ class GloveMode : public BnGloveMode {
 };
 
 }  // namespace touch
-}  // namespace lineage
+}  // namespace strix
 }  // namespace vendor
 }  // namespace aidl
